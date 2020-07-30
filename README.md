@@ -20,8 +20,9 @@ I've split this challenge in different steps to get more organized :
   5.3 Supply Chart.js with data, labels, and other options.  
 6. Create the third canvas:
 ## Ressources
-https://www.chartjs.org/docs/latest/
-https://developer.mozilla.org/fr/docs/Web/API/Element/insertAdjacentHTML
-https://stackoverflow.com/questions/9927126/how-to-convert-the-following-table-to-json-with-javascript
+https://www.chartjs.org/docs/latest/  
+https://developer.mozilla.org/fr/docs/Web/API/Element/insertAdjacentHTML  
+https://stackoverflow.com/questions/9927126/how-to-convert-the-following-table-to-json-with-javascript  
+
 ## Tools and languages
 ## Screenshots
