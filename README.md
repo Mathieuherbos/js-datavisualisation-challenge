@@ -18,11 +18,14 @@ I've split this challenge in different steps to get more organized :
   5.1 Create via the DOM the canvas in the HTML.  
   5.2 Define what type of graph I want to draw.  
   5.3 Supply Chart.js with data, labels, and other options.  
-6. Create the third canvas:
+6. Create the third canvas with json
 ## Ressources
 https://www.chartjs.org/docs/latest/  
 https://developer.mozilla.org/fr/docs/Web/API/Element/insertAdjacentHTML  
 https://stackoverflow.com/questions/9927126/how-to-convert-the-following-table-to-json-with-javascript  
 
 ## Tools and languages
+JavaScript, Json, Ajax
+
+
 ## Screenshots
