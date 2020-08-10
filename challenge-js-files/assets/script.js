@@ -27,12 +27,12 @@ let dataY = [];
 //*Functions
 
 const arrayWithoutElementAtIndex = function (arr, index) {
-	let ret = arr.slice(); //make a copy
-	ret.splice(index, 1); //remove the item from given index
-	return ret; //return the copy
-} //https://stackoverflow.com/questions/31202768/get-array-without-element-at-index
+	let ret = arr.slice(); 
+	ret.splice(index, 1); 
+	return ret; 
+} 
 
-function tableToJson(table) { // https://stackoverflow.com/questions/9927126/how-to-convert-the-following-table-to-json-with-javascript
+function tableToJson(table) { 
 	let data = [];
 	for (i = 1; i < table.rows.length; i++) {
 		let tableRow = table.rows[i];
@@ -107,27 +107,6 @@ function addData(chart, label, data) {
 		dataset.data.push(data);
 	});
 }
-
-//                chart 3
-$.getJSON("https://canvasjs.com/services/data/datapoints.php?xstart=1&ystart=10&length=10&type=json", function (data) {
-	$.each(data, function (key, value) {
-		dataPoints.push({
-			x: value[0],
-			y: parseInt(value[1])
-		});
-	});
-
-	for (i = 0; i < dataPoints.length; i++) {
-		dataLabels[i] = dataPoints[i].x;
-		dataY[i] = dataPoints[i].y;
-	}
-	console.log(dataPoints);
-	console.log(dataLabels);
-	console.log(dataY);
-
-	document.getElementById("firstHeading").insertAdjacentHTML("afterend", '<canvas id="canvas3" height="400" width="400"></canvas>');
-	updateChart();
-});
 
 
 //  chart 2
